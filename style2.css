@@ -1,0 +1,61 @@
+/* section4 */
+
+.section4 {
+    padding-top: 200px;
+    text-align: center;
+    height: 900px;
+    background-color: whitesmoke;
+}
+
+.section4 h1 {
+    font-size: 200%;
+}
+
+.form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.input {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input p {
+    margin: 20px;
+    font-size: 150%;
+    font-weight: normal;
+    padding-top: 10px;
+}
+
+.name, .email {
+    width: 500px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(116, 116, 116);
+
+}
+
+.message {
+    padding-top: 5px;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(116, 116, 116);
+    
+}
+
+.submit {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(213, 207, 168);
+    border: 1px solid rgb(116, 116, 116);
+    color: rgb(63, 63, 63);
+    font-size: 20px;
+    font-weight: normal;
+    border-radius: 5px;
+}

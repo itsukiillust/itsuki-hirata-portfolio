@@ -1,0 +1,519 @@
+body {
+    font-family: "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "Helvetica", Meiryo, sans-serif;
+    width: 100%;
+    position: relative;
+
+}
+
+/* header start */
+
+header {
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.top-left {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+      
+}
+
+.top-left p {
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    margin: 30px;
+    font-weight: bold;
+    border: solid 2px black;
+    border-radius: 50%;
+    background-color: rgba(141, 145, 134, 0.955);
+    line-height: 35px;
+    font-size: 30px;
+}
+
+
+.top-right {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end; 
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}
+
+.menu-li {
+    margin-top: 30px;
+}
+
+.menu-li a {
+    text-decoration: none;
+    padding: 30px;
+    color: black;
+    font-size: 25px;
+    font-weight: normal;
+    transition: all .5s;
+}
+
+.menu-li a:hover {
+    color: rgb(213, 199, 106);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.back-top {
+    position: absolute;
+    width:100px;
+    height: 100px;
+    top: 50vh;
+    right: 20px;
+    display: none;
+       
+}
+
+.back-top a {
+    color:rgb(62, 38, 38);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+   
+    transition: all .5s;
+}
+
+.back-top a:hover {
+    color:rgb(213, 199, 106);
+    font-size: 25px;
+
+}
+
+/* main start */
+
+main {
+    width: 100%;
+    height: 7000px;
+}
+
+/* section1 */
+
+.section1 {
+    height: 1100px;
+    background-image: url("maintop.png");
+    position: relative;
+    z-index: 1;
+}
+
+.cover-se1 {
+    width: 100%;
+    height: 1100px;
+    position: absolute;
+    background-color: rgb(151, 153, 148);
+    top: 0;
+}
+
+.talk {
+    padding-top: 250px;
+    padding-left: 150px;
+    height: 500px;
+    width: 500px;
+    display: none;
+}
+
+.talk p {
+    color: rgb(62, 38, 38);
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: start;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+
+/* section2 */
+.section2 {
+    height: 1800px;
+    background-color: whitesmoke;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.title-se2 {
+    z-index: 1;
+    padding: 50px;
+    text-align: right;
+    padding-top: 200px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+}
+
+.title-se2 h1 {
+    font-size: 200px;
+    color: rgb(224, 230, 221);
+    font-weight: normal;
+    display: none;
+}
+
+.title-se2 h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(105, 111, 103);
+    padding-top: 130px;
+    display: none;
+
+}
+
+.explain {
+    position: absolute;
+    width: 650px;
+    height: 900px;
+    padding: 50px;
+    color: white;
+    background-image: url("raireki.jpg");
+    display: flex;
+    justify-content: right;
+    z-index: 2;
+    display: none;
+}
+
+.explain p {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 23px;
+    letter-spacing: 3px;
+    width: 250px;
+
+}
+
+.jiku {
+    position: absolute;
+    top: 800px;
+    width: 99%;
+    border: solid 2px rgb(62, 38, 38);
+    z-index: 1;
+    display: none;
+    
+}
+
+.event {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top: 830px;
+    list-style: disc;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    left: -100%;
+} 
+
+.event li {
+     -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: start;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(62, 38, 38);
+    line-height: 60px;
+}
+
+
+
+/* section3 */
+
+.section3 {
+    width: 100%;
+    height: 1100px; 
+    background-color: whitesmoke;
+
+}
+
+.title-se3 {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+}
+
+.title-se3 h1 {
+    font-size: 200px;
+    color: rgb(224, 230, 221);
+
+    font-weight: normal;
+}
+
+.title-se3 h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(105, 111, 103);
+    padding-top: 20px;
+}
+
+.thou-box {
+    width: 100%;
+    padding-top: 100px;
+    display: none;
+}
+
+.thou-ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.thou-li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.thou-li h2 {
+    font-size: 35px;
+    text-align: center;
+    color: rgb(216, 195, 141);
+}
+
+.thou-li img {
+    margin: 50px auto;
+    border-radius: 50%;
+}
+
+.thou-li p {
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    line-height: 30px;
+    letter-spacing: 3px;
+}
+
+/* section4 */
+
+.section4 {
+    width: 100%;
+    height: 1800px;
+    background-color: whitesmoke;
+    
+}
+
+
+
+.title-se4 {
+    width: 100%;
+    padding-top: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+}
+
+.title-se4 h1 {
+    font-size: 200px;
+    color: rgb(224, 230, 221);
+    font-weight: normal;
+}
+
+.title-se4 h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(105, 111, 103);
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.artwork {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.artline1, .artline2, .artline3 {
+    display: none;
+}
+
+.artline1 ul, .artline2 ul, .artline3 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.artbox {
+    margin: 0 50px;
+    width: 300px;
+    height: 330px;
+    background: whitesmoke;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+.artbox img {
+    position: absolute;
+    z-index: 1;
+   
+}
+
+.cover {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(13, 20, 0, 0.485);
+    color: rgb(255, 247, 231);
+    text-align: center;
+    line-height: 300px;
+    position: absolute;
+    width: 300px;
+    height:300px;
+    z-index: 2;
+    transition: all .5s;
+    border: none;
+}
+
+.cover:hover { 
+    color:rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid grey;
+}
+
+
+.year {
+    color: rgb(62, 38, 38);
+    text-align: right;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 310px;
+    position: absolute;
+    z-index: 3;
+
+}
+
+.year a {
+    color:rgb(62, 38, 38);
+    transition: all .5s;
+}
+
+.year a:hover {
+    color:rgb(189, 131, 50);
+    font-size: 30px;
+}
+
+/* section5 */
+.section5 {
+    width: 100%;
+    height: 1200px;
+    background-color: whitesmoke;
+}
+
+.title-se5 {
+    padding: 50px;
+    display: none;
+}
+
+.title-se5 h1 {
+    font-size: 200px;
+    color: rgb(224, 230, 221);
+    font-weight: normal;
+}
+
+.title-se5 h2 {
+    font-size: 35px;
+    font-weight: bold;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: start;
+    color: rgb(105, 111, 103);
+    padding: 20px 50px;
+}
+
+
+
+/* footer start */
+
+footer {
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    color: rgb(62, 38, 38);
+}
+
+.foot-right {
+    width: 100%;
+    height: 55px;
+    padding-top: 30px;
+    text-align: right;
+}
+
+.foot-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style: none;
+}
+
+
+
+.foot-li a {
+    text-decoration: none;
+    padding: 30px;
+    color: black;
+    font-size: 25px;
+    font-weight: normal;
+    transition: color .5s;
+}
+
+.foot-li a:hover {
+    color: rgb(213, 199, 106);
+}
+
+.icons {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+.icons a {
+    padding: 15px;
+    color: rgb(62, 38, 38);
+    transition: all .5s;
+}
+
+.icons a:hover {
+    color: rgb(213, 199, 106);
+
+}
+
+.autho {
+    width: 100%;
+    text-align: center;
+}

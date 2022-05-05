@@ -1,0 +1,116 @@
+.section4 {
+    position: relative;
+}
+
+.drawing, .calender, .line, .suzuri, .movie, .santa {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow-y: auto;
+    background: rgba(140, 136, 92, 0.849);
+    display: none;
+
+}
+
+.x {
+    position: fixed;
+    padding: 50px;
+    right: 0;
+}
+
+.x p{
+
+    color: rgb(54, 31, 31);
+    font-size: 60px;
+    cursor: pointer;
+    transition: color .5s;
+
+}
+
+.x p:hover {
+   color: white;
+}
+
+.sheet-h {
+    color: rgb(54, 31, 31);
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px;
+}
+
+.sheet-h h1 {
+    font-size: 80px;
+}
+
+.sheet-h h2 {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.sheet-ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sheet-ul li {
+    padding: 80px;
+
+}
+
+
+.dra-ul li {
+    padding: 50px;
+}
+
+.dra-photo {
+    width: 300px;
+    height: 300px;
+}
+
+.cal-photo {
+    width: 500px;
+}
+
+
+
+
+.stamp-name {
+    font-size: 40px;
+    color: rgb(54, 31, 31);
+
+}
+
+.lin-photo {
+    width: 1000px;
+}
+
+
+.mov-ul li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.genga {
+    width: 500px;
+}
+
+.bag {
+    width: 800px;
+}
+
+.youtube{
+    width: 500px;
+    height: 380px;
+}
+
+
+
+.san-photo {
+    width: 400px;
+}
