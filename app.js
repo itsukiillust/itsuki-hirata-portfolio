@@ -66,19 +66,19 @@ $(function() {
         } else {
             $('.title-se4').fadeOut();
         };
-        let section4In1 = section4Top + 50;
+        let section4In1 = section4Top - 80;
         if (scrollTop >= section4In1) {
             $('.artline1').fadeIn(2000, "swing");
         } else {
             $('.artline1').fadeOut();
         };
-        let section4In2 = section4Top + 500;
+        let section4In2 = section4Top + 100;
         if (scrollTop  >= section4In2) {
             $('.artline2').fadeIn(2000, "swing");
         } else {
             $('.artline2').fadeOut();
         };
-        let section4In3 = section4Top + 800;
+        let section4In3 = section4Top + 300;
         if (scrollTop >= section4In3) {
             $('.artline3').fadeIn(2000, "swing");
         } else {

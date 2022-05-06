@@ -89,6 +89,16 @@
     width: 1000px;
 }
 
+.goods {
+    width: 400px;
+    padding: 30px;
+}
+
+.goods-pho{
+    width: 700px;
+    padding: 30px;
+}
+
 
 .mov-ul li {
     width: 100%;
