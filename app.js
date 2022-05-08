@@ -99,7 +99,15 @@ $(function() {
     });
 
 
-    //クリックでの表示 
+    //クリックでの表示
+    
+    // topにスクロール
+    $('.back-top').click(function () {
+        $('body, html').animate({ scrollTop: 0 }, 500);
+        return false;
+     });
+
+    // section4
     $('.dra-box').click(function() {
         $('.drawing').fadeIn('slow'); 
     });
