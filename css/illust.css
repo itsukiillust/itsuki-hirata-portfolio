@@ -50,12 +50,34 @@
     line-height: 50px;
 }
 
+.sheet-gal {
+   display: flex;
+   flex-direction: column;
+}
+
+.sheet-text {
+    width: 50%;
+    padding: 40px;
+    margin: 0 auto;
+    background-color: rgb(220, 214, 206);
+    color: rgb(54, 31, 31);
+    border: rgb(54, 31, 31) 4px solid;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.sheet-text a {
+    color:rgba(140, 136, 92)
+}
+
 .sheet-ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 
 .sheet-ul li {
     padding: 80px;
